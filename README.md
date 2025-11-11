@@ -6,11 +6,15 @@ A python tool to enumerate usernames using the SMTP protocol
 ### Usage
 **install:**
 
+~~~
 git clone https://github.com/hdwyer0/EnumSMTPusers
+~~~
 
 **run:**
 
-python3 enumsmtpusers.py \<server> \<port> \<wordlist> \<mode>
+~~~
+python3 enumsmtpusers.py <server> <port> <wordlist> <mode>
+~~~
 
 
 
@@ -24,7 +28,9 @@ python3 enumsmtpusers.py \<server> \<port> \<wordlist> \<mode>
 
 
 ### Example
+~~~
 python3 enumsmtpusers.py 10.10.10.10 25 /path/to/wordlist.txt fast
+~~~
 
 
 Recomended wordlist:
