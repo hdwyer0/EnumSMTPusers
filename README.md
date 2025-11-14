@@ -20,7 +20,7 @@ python3 enumsmtpusers.py <server> <port> <wordlist> <mode>
 
 ### Modes
   **fast** (enumerates list in one session)
-   - sometimes the session expires or disconnects and this mode will fail to test the whole worlist
+   - sometimes the session expires or disconnects and this mode will fail to test the whole wordlist
 
   **slow** (reconnects to server for every user)
    - ideal for reliably enumerating users when fast mode fails
